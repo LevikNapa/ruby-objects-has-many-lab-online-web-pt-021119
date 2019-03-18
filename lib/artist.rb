@@ -17,6 +17,7 @@ class Artist
     song_name = Song.new(name)
     song.artist = self 
     self.songs << song
+    @@songs +=1
     
   end
 end
